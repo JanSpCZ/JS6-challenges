@@ -31,3 +31,17 @@
     background: #99DDCC;
     outline: none;
 }
+
+.error-message {
+    color: red;
+    transition: opacity .5s ease;
+    font-size: large;
+}
+
+.is-visible {
+    opacity: 1;
+}
+
+.is-hidden {
+    opacity: 0;
+}
